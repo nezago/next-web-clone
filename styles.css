@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+.navigation{background-color: black;
+    position: relative;
+    height: 27px;
+   
+    text-decoration: none; 
+}
+ .right-nav{
+   max-width: 100%;
+   width: 20%;
+   position: absolute;
+   left: 79%;
+   top:-3px;
+ }
+.right-nav a{
+    color: #bfbdbd;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+.news{
+    text-decoration: none;
+    color: #ffffff;
+}
+.event{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+.event-contents a{
+    text-decoration: none;
+    color: #bfbdbd;
+    visibility: hidden;
+    background-color: black;
+    width: 100px;
+    position: absolute;
+    top:10px;
+    
+
+}
+.events:hover .event-contents a{
+    visibility: visible;
+}
+.events{
+    position: absolute;
+    left:4%;
+    top:1px;
+}
+.business-contents a{
+    visibility: hidden;
+    text-decoration: none;
+    color: #bfbdbd;
+    background-color: black;
+    position: absolute;
+    left: 8%;
+    width: 100px;
+
+}
+.businesses:hover .business-contents a{
+    visibility: visible;
+}
+.business{
+    text-decoration: none;
+    color: #bfbdbd;
+    position: absolute;
+    left: 8%;
+    top: 1px;
+}

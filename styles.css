@@ -85,9 +85,13 @@
     font-size: 12px;
 }
 .heading{ 
-    border:5px solid red;
     width: 95%;
     height: 35px;
+    /* background-color: #bfbdbd; */
+    position: relative;
+    border-right: 2px solid #bfbdbd;
+    /* background: rgb(191, 189, 189,0.3); */
+
 }
 .heading a{
     text-decoration: none;
@@ -98,7 +102,6 @@
     
 }
 .right-search{
-    border:1px solid green;
     height: 45px;
     width: 4%;
     position: relative;
@@ -112,19 +115,20 @@
     top: 11px;
     left:40%;
     transform:rotate(90deg);
+    z-index: 3;
 }
 .section1{
-    border:2px solid gold;
     height: 430px;
     margin-top: -44px;
     position: relative;
+    background-color: #bfbdbd;
+    padding-top: 0.8rem;
     
 }
 .section1-left{
     width: 65%;
-    border:4px solid red;
     height: 430px;
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-1-796x417.png);
+    background:linear-gradient(rgba(255,0,0,0.7),rgba(0,0,0,0.7)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Untitled-design-1-796x417.png");
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 10px;
@@ -172,7 +176,7 @@
 }
 .section1-left-small-text a{
     text-decoration: none;
-    color: #bfbdbd;
+    color: rgb(191, 189, 189);
     font-weight: bold;
 }
 .section1-date{
@@ -184,17 +188,16 @@
     max-width: 40%;
 }
 .section1-right{
-    border: 3px solid darkblue;
     height: 430px;
     position: absolute;
     width: 32.7%;
     left:67%;
     max-width: 40%;
     top:-1px;
+    padding-top: 0.8rem;
 
 }
 .section1-right-up{
-    border:2px solid red;
     height: 48%;
     /* background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&amp;signature=b75eca35f42accc83310a4fa4e562088"); */
     background-size: 100%;
@@ -205,11 +208,11 @@
     
 }
 .section1-right-down{
-    border:3px solid green;
     height:48%;
     position: relative;
     top:3%;
-    background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/bmw-ix3-first-look-pictures-car-electric-796x449.png);
+    /* background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/bmw-ix3-first-look-pictures-car-electric-796x449.png); */
+    /* background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-horny-void-796x417.png"); */
     background-size: 100%;
     background-color: #bfbdbd;
    
@@ -238,4 +241,43 @@ left: 15px;
     font-size: 26px;
     text-decoration: none;
     color: #ffffff;
+}
+.section1-right-up-small-text{
+    height: 20px;
+    position: absolute;
+    top: 170px;
+    padding-left: 10px;
+    z-index: 3;
+    width: 70%;
+    color: #bfbdbd;
+    font-weight: bold;
+}
+.section1-right-up-small-text a{
+    color: #bfbdbd;
+    text-decoration: none;
+}
+.section1-right-down-large-text{
+    height: 100px;
+    position: absolute;
+    z-index: 3;
+    top:78px;
+    padding-left: 10px;
+}
+.section1-right-down-large-text a{
+    font-size: 26px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.section1-right-down-small-text{
+    height: 20px;
+    position: absolute;
+    top: 170px;
+    padding-left: 10px;
+    z-index: 3;
+    width: 70%;
+    color: #bfbdbd;
+    font-weight: bold;
+}
+.china{
+    border: 2px solid red;
 }

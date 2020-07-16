@@ -739,13 +739,13 @@ left: 15px;
 }
 .section5-heading-middle{
     position: relative;
-    left:16%;
+    left:17%;
     width: 180px;
     height: auto;
 }
 .section5-heading-right{
     position: relative;
-    left: 30%;
+    left: 34%;
     width: 180px;
     height: auto;
 }
@@ -784,10 +784,226 @@ left: 15px;
     color: black;
 }
 .section5{
-    border:2px solid red;
     position:absolute;
     height: 300px;
     width: 87%;
     top:1650px;
     margin-left: 57px;
+    display: flex;
+    
 }
+.section5-1{
+    height: 100%;
+    width: 32%;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/02/twitter-dorsey-bitcoin-blockchain-cryptocurrency-368x276.jpg");
+}
+.section5-2{
+    height: 100%;
+    width: 32%;
+    margin-left: 20px;
+    background:linear-gradient(rgba(255,255,255,0.7),rgba(0,0,0,0.7)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Snag_34efb751-368x276.png");
+
+    /* background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Snag_34efb751-368x276.png"); */
+}
+.section5-3{
+    height: 100%;
+    width: 32%;
+    margin-left: 20px;
+    background:linear-gradient(rgba(255,255,255,0.7),rgba(0,0,0,0.7)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/header-image-new-braided-iPhone-cable-368x276.png");
+}
+.most{
+    width: 45%;
+    position: relative;
+    top: 150px;
+    
+}
+.most a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.section5-1-large-text{
+    position: relative;
+    top:170px;
+    margin-left: 10px;
+    
+}
+.section5-1-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.section5-1-small-text{
+    position: relative;
+    top: 210px;
+    margin-left: 10px;
+
+}
+.section5-1-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+/* section5-2 */
+.section5-2-large-text{
+    position: relative;
+    top:170px;
+    margin-left: 10px;
+    
+}
+.section5-2-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.section5-2-small-text{
+    position: relative;
+    top: 210px;
+    margin-left: 10px;
+
+}
+.section5-2-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+/* section5-3 */
+
+.section5-3-large-text{
+    position: relative;
+    top:170px;
+    margin-left: 10px;
+    
+}
+.section5-3-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.section5-3-small-text{
+    position: relative;
+    top: 190px;
+    margin-left: 10px;
+
+}
+.section5-3-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+/* section6 start here */
+.section6{
+    height: 100px;
+    /* width: 86.7%; */
+    width: 88%;
+    position: absolute;
+    top:1950px;
+    margin-left: 57px;
+    display: flex;
+   
+   
+}
+.latest{
+    width: 45%;
+    position: relative;
+    top: 10px;
+    color: #f10f0f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+  
+}
+
+.section6-1{
+    height: 100%;
+    width: 31.7%;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+
+}
+.section6-2{
+    height: 100%;
+    width: 31.5%;
+    margin-left: 20px;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+
+
+}
+.section6-3{
+    height: 100%;
+    width: 31.7%;
+    margin-left: 20px;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+
+
+}
+.section6-1-text{
+    position: relative;
+    top: 10px;
+}
+.section6-1-text a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.section6-1-image{
+    position: relative;
+    height: 100%;
+    top:-70px;
+    left:66%;
+    overflow: hidden;
+}
+/* section6-2 start */
+.section6-2-text{
+    position: relative;
+    top: 10px;
+}
+.section6-2-text a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.section6-2-image{
+    position: relative;
+    height: 100%;
+    top:-70px;
+    left:66%;
+    overflow: hidden;
+}
+    /* section6-3 */
+
+    .section6-3-text{
+        position: relative;
+        top: 10px;
+    }
+    .section6-3-text a{
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    .section6-3-image{
+        position: relative;
+        height: 100%;
+        top:-70px;
+        left:66%;
+        overflow: hidden;
+    }

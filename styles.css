@@ -551,20 +551,31 @@ left: 15px;
 /* section4 starts here */
 .section4{
     height: 270px;
-    position: relative;
-    width: 92%;
-    top:200px;
+    position: absolute;
+    width: 90%;
+    top:1300px;
     margin-left:60px ;
-    border: 2px solid red;
     display: flex;
+}
+.section4-1{
+    width: 22%;
+    height: 100%;
+    position: absolute;
+    margin-left: 0;
 }
 .section4-head-right{
     position: relative;
-    left: 30%;
-    top:-20px;
+    left: 900px;
+    top:150px;
+    display: flex;
+    /* width: 350px; */
+    height: 20px;
+    width: 30%;
+
 }
 .section4-head-right a{
     padding-right: 5px;
+    padding-left: 5px;
     /* border-right: 2px solid rgb(255, 38, 0); */
     text-decoration: none;
     font-size: 15px;
@@ -576,7 +587,10 @@ left: 15px;
 }
 .section4-head-left{
     position: relative;
-    top: -30px;
+    top: 180px;
+    width: 45%;
+    height: 30px;
+    margin-left: 55px;
    
 }
 .section4-head-left a{
@@ -591,10 +605,13 @@ left: 15px;
     color: rgba(0,0,0,1);
 }
 .card{
-    border:2px solid black;
     width: 100%;
     position: relative;
     height: 90px;
+}
+.card-text{
+    width: 100%;
+    height: 60px;
 }
 .heading1{
     position: relative;
@@ -623,9 +640,8 @@ left: 15px;
     margin-left: 10px;
 }
 .section4-1-large-text{
-    border:1px solid black;
-    height: 70px;
-    width: 100%;
+    height: 100%;
+    width: 96%;
     border-bottom: 1px solid rgba(255,38,0,0.3);
     background-color: #fffaf8;
     position: relative;
@@ -662,9 +678,13 @@ left: 15px;
     text-decoration: none;
     color: rgb(113, 104, 104);
 }
+/* .section4-1-large-text{
+    position: relative;
+    top:-5px;
+} */
 .section4-1-small-text{
     position: relative;
-    top:-40px;
+    top:-30px;
     padding-left: 10px;
 }
 .section4-1-small-text a{
@@ -672,39 +692,34 @@ left: 15px;
     color: rgb(113,104,104)
 }
 .section4-1-underline-text{
-    border: 1px solid red;
-    width: 100%;
+    width: 99%;
     position: relative;
-    top:-15px;
-    margin-left: 10px;
+    top:-17px;
+    margin-left: 1px;
+    background-color: #fffaf8;
+    height: 70px;
 }
 .section4-1-underline-text a{
     text-decoration: none;
     color: rgb(113, 104, 104);
     font-size: 14px;
 }
-.section4-1{
-    border:8px solid green;
-    width: 22%;
-    height: 100%;
-    position: absolute;
-    margin-left: 0;
-}
+
 .section4-2{
     position: relative;
     top: 0px;
-    left: -250px;
-    width: 22%;
+    left: 300px;
+    width: 23%;
 }
 .section4-3{
     position: relative;
-    top:-243px;
-    left:-10px;
-    width: 22%;
+    top:2px;
+    left:310px;
+    width: 23%;
 }
 .section4-4{
     position: relative;
-    top: -486px;
-    left:250px;
-    width: 22%;
+    top: 2px;
+    left:320px;
+    width: 23%;
 }

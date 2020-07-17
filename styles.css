@@ -1007,3 +1007,43 @@ left: 15px;
         left:66%;
         overflow: hidden;
     }
+    .section7-1 ul{
+        list-style: none;
+    }
+    .section7-1 ul .text1::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section7-1 ul .text2::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+    }
+    .section7-1 ul .text4::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+    }
+    .section7-1 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-1 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7{
+       border:2px solid red;
+       position: absolute; 
+       top: 2050px;
+       width: 98.5%;
+       padding-left: 10px;
+    }
+    .section7-1 a{
+        text-decoration: none;
+    }
+    

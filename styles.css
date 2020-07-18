@@ -966,7 +966,7 @@ left: 15px;
     height: 100%;
     top:-70px;
     left:66%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /* section6-2 start */
 .section6-2-text{
@@ -1037,13 +1037,216 @@ left: 15px;
         margin-right: 15px;
     }
     .section7{
-       border:2px solid red;
+       /* border:2px solid red; */
        position: absolute; 
        top: 2050px;
        width: 98.5%;
        padding-left: 10px;
+       display: flex;
     }
-    .section7-1 a{
+    .section7-1 ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-1{
+        width:33% ;
+        /* border-right: 1px solid orange; */
+        margin-right:0px;
+    }
+
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-1 ul li{
+        line-height: 2;
+    }
+    
+    /* section7-2 starts here */
+
+    .section7-2 ul{
+        list-style: none;
+    }
+    .section7-2 ul .text1::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section7-2 ul .text2::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-2 ul .text4::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-2 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-2 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    
+    }
+    .section7-2 a{
         text-decoration: none;
     }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-2{
+        /* width:35% ; */
+        /* border:1px solid black; */
+        padding-left: -10px;
+        width: 32;
+        margin-left: -20px;
+        
+    }
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-2 ul li{
+        line-height: 2;
+    }
+    .section7-1 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .section7-2 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    }
+    .section7-2{
+    }
+
+    /* section7-3 starts here */
+
+    .section7-3 ul{
+        list-style: none;
+    }
+    .section7-3 ul .text1::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section7-3 ul .text2::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-3 ul .text4::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-3 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section7-3 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    
+    }
+    .section7-3 a{
+        text-decoration: none;
+    }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-3{
+        /* width:35% ; */
+        /* border:1px solid black; */
+        padding-left: -10px;
+        width: 32;
+        margin-left: -25px;
+        
+    }
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section7-3 ul li{
+        line-height: 2;
+    }
+    .section7-1 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .section7-3 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    
+        
+    }
+    .section7-1 ul li a:hover{
+        color: #000000;
+    }
+    .section7-2 ul li a:hover{
+        color: #000000;
+    }
+    .section7-3 ul li a:hover{
+        color: #000000;
+    }
+    
+    
     

@@ -1456,14 +1456,14 @@ left: 15px;
     height: 100px;
     /* width: 86.7%; */
     /* width: 88%; */
-    position: absolute;
-    top:2800px;
+    position: relative;
+    top:1696px;
     margin-left: 57px;
     display: flex;
-    width: 86.6%;
-    margin-left: 57px;
+    width: 87.7%;
     /* border: 1px solid black; */
     display: flex;
+
    
    
 }
@@ -1480,26 +1480,36 @@ left: 15px;
 }
 .section9-1{
     height: 100%;
-    width: 31.7%;
+    width: 32.1%;
     background-color:#ffebe8 ;
     overflow: hidden;
+    position: absolute;
+    left:  0%;
+    margin-left: 0px;
 
 }
 .section9-2{
     height: 100%;
-    width: 31.5%;
+    width: 32.1%;
     margin-left: 20px;
     background-color:#ffebe8 ;
     overflow: hidden;
+    position: absolute;
+    left: 32.1%;
+
+
 
 
 }
 .section9-3{
     height: 100%;
-    width: 31.7%;
-    margin-left: 20px;
+    width: 32.2%;
+    margin-right: 0px;
     background-color:#ffebe8 ;
     overflow: hidden;
+    position: absolute;
+    left:66%;
+    margin-left: 20px;
 
 
 /* .section9-1{
@@ -1572,7 +1582,7 @@ left: 15px;
     position: relative;
     height: 100%;
     top:-70px;
-    left:58%;
+    left:72%;
     overflow: hidden;
 }
     /* section6-3 */
@@ -1592,6 +1602,249 @@ left: 15px;
         position: relative;
         height: 100%;
         top:-70px;
-        left:66%;
+        left:72%;
         overflow: hidden;
+    }
+
+    /* section10 */
+
+    .section10-1 ul{
+        list-style: none;
+    }
+    .section10-1 ul .text1::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section10-1 ul .text2::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+    }
+    .section10-1 ul .text4::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+    }
+    .section10-1 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-1 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10{
+       /* border:2px solid red; */
+       position: relative; 
+       top: 80px;
+       width: 98.5%;
+       padding-left: 10px;
+       display: flex;
+    }
+    .section10-1 ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-1{
+        width:33% ;
+        /* border-right: 1px solid orange; */
+        margin-right:0px;
+    }
+
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-1 ul li{
+        line-height: 2;
+    }
+    
+    /* section7-2 starts here */
+
+    .section10-2 ul{
+        list-style: none;
+    }
+    .section10-2 ul .text1::before {
+        content: "\2022";
+        color: rgb(174, 172, 172);
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section10-2 ul .text2::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-2 ul .text4::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-2 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-2 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    
+    
+    .section10-2 a{
+        text-decoration: none;
+    }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-2{
+        /* width:35% ; */
+        /* border:1px solid black; */
+        padding-left: -10px;
+        width: 32;
+        margin-left: -20px;
+        
+    }
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-2 ul li{
+        line-height: 2;
+    }
+    .section10-1 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .section10-2 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    }
+    .section10-2{
+    }
+
+    /* section7-3 starts here */
+
+    .section10-3 ul{
+        list-style: none;
+    }
+    .section10-3 ul .text1::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+        /* border-bottom: 1px solid rgb(174, 172, 172); */
+    }
+    .section10-3 ul .text2::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-3 ul .text4::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-3 ul .text3::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    .section10-3 ul .text5::before {
+        content: "\2022";
+        color: red;
+        margin-right: 15px;
+    }
+    
+    
+    .section10-3 a{
+        text-decoration: none;
+    }
+    .text1{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-3{
+        /* width:35% ; */
+        /* border:1px solid black; */
+        padding-left: -10px;
+        width: 32;
+        margin-left: -25px;
+        
+    }
+    .text2{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text3{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text4{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .text5{
+        border-bottom: 1px solid rgb(203, 197, 197);
+        
+    }
+    .section10-3 ul li{
+        line-height: 2;
+    }
+    .section10-1 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    .section10-3 ul li a{
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+    
+        
+    }
+    .section10-1 ul li a:hover{
+        color: #000000;
+    }
+    .section10-2 ul li a:hover{
+        color: #000000;
+    }
+    .section10-3 ul li a:hover{
+        color: #000000;
     }

@@ -132,7 +132,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 10px;
-    /* background-image: linear-gradient(red,black); */
   
 }
 .nav-logo{
@@ -1609,6 +1608,7 @@ left: 15px;
        width: 98.5%;
        padding-left: 10px;
        display: flex;
+       border:2px solid red;
     }
     .section10-1 ul li a{
         text-decoration: none;

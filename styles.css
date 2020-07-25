@@ -1884,7 +1884,6 @@ left: 15px;
 
 }
 .section11{
-    border: 1px solid red;
     position: absolute;
     height: 250px;
     width: 100%;
@@ -1893,27 +1892,94 @@ left: 15px;
     grid-column: 4;
 }
 .section11-1{
-    border: 1px solid blue;
-    width: 24%;
-    height: 200px;
-    background-image: url(https://cdnp3.stackassets.com/ff35439fd6a5c9e2c5cc4514a7f1923c9ef7ea6f/store/1532b43da15553514d7d8c0215fdd0d1033614864b7071dab71a69d5335b/sale_19163_primary_image.jpg);
-    background-size: 300px;
+    width: 32%;
+    height: 250px;
+    /* background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/bezoss-368x276.jpg); */
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(000,000,000,0.2),rgba(0,0,0,1)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/bezoss-368x276.jpg);
+
+    background-size: 400px;
 }
 .section11-2{
-    border: 1px solid blue;
-    width: 24%;
-    height: 200px;
+    width: 32%;
+    height: 250px;
     margin-left: 27px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png")
 }
 .section11-3{
-    border: 1px solid blue;
-    width: 24%;
-    height: 200px;
+    width: 32%;
+    height: 250px;
     margin-left: 27px;
+    /* background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Legend-of-Korra-368x276.jpg"); */
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,1)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/Legend-of-Korra-368x276.jpg");
+
 }
-.section11-4{
-    border: 1px solid blue;
-    width: 24%;
-    height: 200px;
-    margin-left: 35px;
+.section11-1-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.section11-1-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+.section11-1-large-text{
+    position: relative;
+    top:125px;
+}
+.section11-1-small-text{
+    position: relative;
+    top:130px ;
+}
+.most{
+    position: relative;
+    top:120px;
+}
+.most a{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section11-2-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.section11-2-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+.section11-2-large-text{
+    position: relative;
+    top:130px;
+}
+.section11-2-small-text{
+    position: relative;
+    top:130px ;
+}
+
+.section11-3-large-text a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    letter-spacing: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.section11-3-small-text a{
+    text-decoration: none;
+    color: #bfbdbd;
+}
+.section11-3-large-text{
+    position: relative;
+    top:125px;
+}
+.section11-3-small-text{
+    position: relative;
+    top:130px ;
 }

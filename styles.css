@@ -1900,12 +1900,14 @@ left: 15px;
     background-size: 400px;
 }
 .section11-2{
+    border: 1px solid blue;
     width: 32%;
     height: 250px;
     margin-left: 27px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/07/BMW-ix3-unveiling-car-future-bavarian-motor-ev-electric-368x276.png")
 }
 .section11-3{
+    border: 1px solid blue;
     width: 32%;
     height: 250px;
     margin-left: 27px;
@@ -1983,3 +1985,140 @@ left: 15px;
     position: relative;
     top:130px ;
 }
+/* section12 starts here */
+
+
+.section12{
+    height: 100px;
+    /* width: 86.7%; */
+    /* width: 88%; */
+    position: absolute;
+    top:800px;
+    margin-left: 0px;
+    display: flex;
+    width: 99.7%;
+    /* border: 1px solid black; */
+    display: flex;
+
+   
+   
+}
+.latest{
+    width: 45%;
+    position: relative;
+    top: 10px;
+    color: #f10f0f;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    left:10px;
+    
+  
+}
+.section9-1{
+    height: 100%;
+    width: 31.5%;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+    position: absolute;
+    left:  0%;
+    margin-left: 0px;
+
+}
+.section9-2{
+    height: 100%;
+    width: 31.9%;
+    margin-left: 20px;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+    direction: ltr;
+    position: absolute;
+    left: 32.1%;
+
+
+
+
+}
+.section9-3{
+    height: 100%;
+    width: 31.9%;
+    margin-right: 0px;
+    background-color:#ffebe8 ;
+    overflow: hidden;
+    position: absolute;
+    left:66%;
+    margin-left: 26px;
+
+}
+.section9-1-text{
+    position: relative;
+    top: 10px;
+    padding-left: 10px;
+}
+.section9-1-text a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.section9-1-image{
+    position: relative;
+    height: 120px;
+    top:-50px;
+    left:72.4%;
+    object-fit: cover;
+    object-position: 10%;
+    direction: ltr;
+    /* overflow: hidden; */
+}
+/* section6-2 start */
+.section9-2-text{
+    position: relative;
+    top: 10px;
+}
+.section9-2-text a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.section9-2-image{
+    position: absolute;
+    height: 100%;
+    top:0px;
+    left:65%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: -10%;
+    direction: rtl;
+    /* transform: translate(-50%); */
+}
+.image-section9-2{
+    object-fit: cover;
+    object-position: 110%;
+}
+    /* section6-3 */
+
+    .section9-3-text{
+        position: relative;
+        top: 10px;
+    }
+    .section9-3-text a{
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+    .section9-3-image{
+        position: relative;
+        height: 100%;
+        top:-70px;
+        left:72%;
+        overflow: hidden;
+    }
+    .image-section9-3{
+        object-fit: cover;
+        object-position: 50%;
+    }

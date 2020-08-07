@@ -2122,3 +2122,49 @@ left: 15px;
         object-fit: cover;
         object-position: 50%;
     }
+    /* section13 starts here */
+    .section13{
+        /* border:2px solid red; */
+        /* position: relative; 
+        top: 99px;
+        width: 97.7%;
+        padding-left: 10px;
+        display: flex;
+        background-color: #f10f0f;
+        height: 450px;
+        border:2px solid black;
+        margin-right:0;
+        padding-right:0px; */
+        position: absolute; 
+        left: -39px;
+        top: 900px;
+        width: 1200px;
+        padding-left: -0px;
+        display: flex;
+     }
+     .section14-head{
+         border: 2px solid red;
+         position:relative;
+         top:1300px;
+         width: 100%;
+         margin-left: -650px;
+         height: 50px;
+     }
+     .section14-head-left a{
+        color: rgba(255,38,0,1);
+        font-size: 24px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+
+     }
+     .section14-head-right a{
+        color: rgba(255,38,0,1);
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        position: absolute;
+        left:990px;
+        top:10px;
+     }
